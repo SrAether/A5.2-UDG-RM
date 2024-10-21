@@ -1,0 +1,33 @@
+# Ignorar los archivos de caché de Python
+__pycache__/
+*.py[cod]
+
+# Archivos temporales de editor o sistema operativo
+*.swp
+*.swo
+*.DS_Store
+
+# Archivos de logs
+*.log
+
+# Archivos generados por Jupyter o IPython
+.ipynb_checkpoints/
+
+# Archivos de entorno virtual
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Ignorar archivos de configuración y binarios generados en Linux/MacOS
+*.egg-info/
+*.so
+*.dll
+*.dylib
+
+# Archivos de bases de datos temporales
+*.sqlite3
